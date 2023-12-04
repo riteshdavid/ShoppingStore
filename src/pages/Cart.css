@@ -1,0 +1,32 @@
+img{
+    width:5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+table{
+    width: 80%;
+    margin: 5rem auto;
+}
+
+th,td{
+    text-align: left;
+}
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color:grey;
+    height: 1px;
+  }
+#remove_btn{
+    background-color: rgb(241, 95, 95);
+    font-weight: 500;
+    color: aliceblue;
+    border-radius: 8%;
+}
+#remove_btn:hover{
+    scale: 1.02;
+}
