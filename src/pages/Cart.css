@@ -30,3 +30,14 @@ hr {
 #remove_btn:hover{
     scale: 1.02;
 }
+
+table th{
+    /* background-color: azure; */
+    color: grey;
+    /* font-weight:lighter; */
+}
+
+table #total{
+    color: black;
+    font-size: 1.2rem;
+}

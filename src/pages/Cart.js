@@ -1,16 +1,17 @@
 import React from "react";
 import "./Cart.css";
 import pic1 from "../alex.jpg";
-import { removeFromCart } from "../features/cart/cartSlice";
+
 import {useSelector} from "react-redux";
 import Singlecart from "../components/singlecart";
+
 
 
 
 function Cart() {
     
     const name = useSelector((store) => store.cart.cartItems);
-
+    const total= useSelector((store) => store.cart.total);
     const cartitems=name.map((item) => <Singlecart key={item.id} id={item.id} name={item.name} quantity={item.quantity} photo={item.photo} price={item.price}/> )
     return (
         <>
@@ -29,6 +30,15 @@ function Cart() {
         {cartitems}
             
             
+        </table>
+
+        <table className="mt-5">
+            <tr>
+                <th></th>
+                <th></th>
+                <th>Total:</th>
+                <th id="total">${total}</th>
+            </tr>
         </table>
 
         

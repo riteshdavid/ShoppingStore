@@ -29,9 +29,9 @@ function Card(props) {
         </Link >
         {/* .col-	.col-sm-	.col-md-	.col-lg- */}
   
-        <Link to='/detail' state={props} className='col-12 col-sm-12 col-md-3 col-lg-4'>
+        <Link to='/detail' state={props} className='col-12 col-sm-12 col-md-6 col-lg-4'>
             <div className="card rounded-0 mt-5">
-                <img src={props.photo} className="card-img-top" alt="Item"/>
+                <img src={props.photo} className="card-img" alt="Item"/>
                     <div className="card-body">
                         <h5 className="card-title">{props.name}</h5>
                         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

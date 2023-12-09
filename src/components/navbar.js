@@ -12,11 +12,11 @@ export const Navbar = () => {
      <nav className="navbar navbar-expand-lg navbar-light bg-light lh-lg fixed-top" style={{paddingTop:'1rem'} }>
   <div className="container-fluid">
     <Link to="/" className="navbar-brand bg-info rounded-pill fw-bolder fst-italic text-light" >Shopping</Link>
-    <Link to="cart" className='fs-3 position-relative ms-5 float-end' > 
+    <Link to="cart" className='navbar-cart fs-3 position-relative ms-5 float-end' > 
      <span><i class="fa-solid fa-cart-arrow-down"></i></span>
      <span class="position-absolute top-1 start-100 translate-middle badge rounded-pill bg-success fs-6">
     {name.length}
-    <span class="visually-hidden">unread messages</span>
+    <span class="visually-hidden">No. of Items</span>
     </span>
 
     </Link>
@@ -30,7 +30,7 @@ export const Navbar = () => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page">Home</Link>
+          <Link to="/" className="nav-link active" aria-current="page">Home</Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link active" >Profile</Link>

@@ -1,35 +1,16 @@
-.two_rows{
-    margin: 2rem auto ;
-    width: 90%;
-    display: grid;
-    grid-template-columns: auto auto;
+@media (max-width:768px) {
+    .container h1{
+        margin-top: 2rem;
+    }
+    .container p {
+        font-size: 1rem !important;
+    }
+
+    .container {
+        margin-top: 5rem;
+    }
 }
 
-.prod_img{
-    width: 28rem;
-}
-
-#add_cart{
-    width: 8rem;
-    height: 3rem;
-    margin: 6rem 12rem;
-    background-color: aquamarine;
-    font-weight: 600;
-}
-
-#add_cart:hover{
-    scale: 1.02;
-}
-
-#prod_heading{
-    margin:1rem 2rem 1rem;
-    font-size: xxx-large;
-}
-#prod_desc{
-    font-size: 1.5rem;
-    margin: 5rem 2rem;
-}
-.price_prod{
-    margin: 1rem 34rem 1rem;
-    font-size:xxx-large;
+.container {
+    margin-top: 12rem;
 }

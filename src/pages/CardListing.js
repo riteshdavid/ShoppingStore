@@ -1,7 +1,7 @@
 import React from "react";
 import data from "../Data";
 import Card from "./Card";
-// import "./CardListing.css";
+import "./CardListing.css";
 import { useSelector } from 'react-redux';
 
 
