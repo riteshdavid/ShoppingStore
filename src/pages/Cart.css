@@ -1,3 +1,6 @@
+.html{
+    background-color: rgb(233, 231, 231);
+}
 img{
     width:5rem;
     display: flex;
@@ -33,11 +36,28 @@ hr {
 
 table th{
     /* background-color: azure; */
-    color: grey;
+    color: rgb(57, 56, 56);
     /* font-weight:lighter; */
 }
 
 table #total{
     color: black;
     font-size: 1.2rem;
+}
+.subtotal{
+   margin-top: 50vh;
+}
+
+/* @media */
+#checkout{
+    background-color:#0dcaf0;
+    color: white;
+    border:none;
+    width: 90vw;
+    height: 5vh;
+}
+.checkout_btn{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 3vh;
 }

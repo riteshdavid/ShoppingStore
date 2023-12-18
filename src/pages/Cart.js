@@ -32,14 +32,17 @@ function Cart() {
             
         </table>
 
-        <table className="mt-5">
+        <table className=" subtotal">
             <tr>
                 <th></th>
                 <th></th>
-                <th>Total:</th>
+                <th>Sub Total:</th>
                 <th id="total">${total}</th>
+                
             </tr>
         </table>
+
+        <div className="checkout_btn"><button id="checkout">Proceed to Checkout</button></div>
 
         
 
